@@ -1,6 +1,9 @@
 # UploadFileExample
 Aplicação exemplo de uploads de arquivos. Front-end em React.js e back-end em Node.js.
 
+<h2>Back-end</h2>
+Api rest comunicação via Json, banco noSql MongoDB, para salvar as imagens em produção foi usado o cdn da Amazon o s3, em homologação alterando no arquivo .env o STORAGE_TYPE para local as imagens são salvar na pasta "tmp/uploads". 
+
 <h3>Variáveis de Ambiente</h3>
 
 Cria as variáveis de ambiente em produção, para homologação cria um arquivo .env na raiz do backend da aplicação:
