@@ -3,7 +3,7 @@ Aplicação exemplo de uploads de arquivos. Front-end em React.js e back-end em 
 
 <h3>Variáveis de Ambiente</h3>
 
-Cria as variáveis de ambiente em produção, para homologação cria um arquivo .env na raiz da aplicação:
+Cria as variáveis de ambiente em produção, para homologação cria um arquivo .env na raiz do backend da aplicação:
 - APP_URL= Url da aplicação.
 - STORAGE_TYPE= local ou s3
 - MONGO_URL= url do banco mongo
