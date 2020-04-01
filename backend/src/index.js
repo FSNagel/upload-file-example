@@ -5,6 +5,7 @@ const routes = require('./routes');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
 
@@ -18,6 +19,7 @@ mongoose.connect(
     useUnifiedTopology: true
 })
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
