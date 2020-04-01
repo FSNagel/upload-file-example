@@ -27,6 +27,7 @@ class App extends Component {
       uploadedFiles: response.data.map(file => ({
         id: file._id,
         name: file.name,
+        preview: file.url,
         readableSize: file.size,
         uploaded: true,
         url: file.url
